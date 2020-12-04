@@ -13,10 +13,10 @@ Cuando llegan las peticiones la base de datos consulta de que tipo es, si es de 
 
 ### Modificación perdida:
 
-En T1 (Tiempo 1), arranca TA (Transacción A), leen dato X
-En T2 (Tiempo 2), arranca TB (Transacción B), leen dato X datos = 100
-En T3 (Tiempo 3), modifica TA (Transacción A), dato X (aumenta el 100%) datos = 200
-En T4 (Tiempo 4), modifica TB, dato X (en base a lo que leyó en T2) (aumenta el 50%) 150 datos final.
+- En T1 (Tiempo 1), arranca TA (Transacción A), leen dato X
+- En T2 (Tiempo 2), arranca TB (Transacción B), leen dato X datos = 100
+- En T3 (Tiempo 3), modifica TA (Transacción A), dato X (aumenta el 100%) datos = 200
+- En T4 (Tiempo 4), modifica TB, dato X (en base a lo que leyó en T2) (aumenta el 50%) 150 datos final.
 
 ### Permitir leer dato sin que se haya termiando la modificación que se esta ejecutando
 
