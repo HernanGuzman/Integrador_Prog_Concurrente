@@ -1,4 +1,10 @@
-# Integrador_Prog_Concurrente
+# Integrador Programación Concurrente
+
+## Profesor: Sebastian Pedersen
+
+### Año: 2020
+
+### Alumno: Hernán Guzman
 
 En el ejercicio se pretende simular la concurrencia en una base de datos. Cuando entra un proceso en la base de datos se encola y existen dos tipos de permisos.
 
