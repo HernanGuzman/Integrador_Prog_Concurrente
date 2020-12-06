@@ -28,9 +28,8 @@ Cuando llegan las peticiones la base de datos consulta de que tipo es, si es de 
 
 ### La información para resolver este control de concurrencia se estudio del libre Fundamentos de bases de datos quinta edición. Página 529
 
-## Solución a problema de ejecución en orden de las transacciones entrantes
+## Solución al problema de ejecución en orden de las transacciones entrantes
 
-Para probar transacciones en diferentes tablas se simulan las tablas clientes y productos, para las mismas se generan dos colas de tipo lectura y escritura por cada una. Con forme van llegando las transacciones se encolan en la respectiva cola.
-Luego el control de transacciones recorre cada cola y cuando existe al menos una transacción en espera la ejecuta.
+Para probar transacciones en diferentes tablas se simulan las tablas clientes y productos, para las mismas se generan dos colas de tipo lectura y escritura por cada una. Con forme van llegando las transacciones se encolan en la respectiva cola. Luego el control de transacciones recorre cada cola y cuando existe al menos una transacción en espera la ejecuta.
 
-Para un mayor orden se separo la clase cola en otro archivo.
+Para un mayor orden se separó la clase cola en otro archivo.
